@@ -1,15 +1,9 @@
 package learning.micronaut.configuration;
 
-import io.micronaut.context.annotation.Context;
 import io.micronaut.context.annotation.EachProperty;
 import learning.micronaut.model.Customer;
 
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotBlank;
-
 @EachProperty("customers")
-@Context
 public class CustomerConfiguration {
 
     private Long id;

@@ -1,3 +1,12 @@
 micronaut:
   application:
     name: customerService
+  server:
+    port: 9090
+customers:
+  tucker:
+    id: 1
+    name: Tucker
+  barney:
+    id: 2
+    name: Barney
